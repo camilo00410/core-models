@@ -35,13 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "fiduprevisora\\core-models\\": "src/",
-            "fiduprevisora\\core-models\\Database\\Factories\\": "database/factories/"
+            "Fiduprevisora\\CoreModels\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "fiduprevisora\\core-models\\Tests\\": "tests/",
+            "fiduprevisora\\CoreModels\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "fiduprevisora\\core-models\\CoreModelsServiceProvider"
+                "fiduprevisora\\CoreModels\\CoreModelsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "fiduprevisora\\core-models\\Facades\\Skeleton"
+                "Skeleton": "fiduprevisora\\CoreModels\\Facades\\Skeleton"
             }
         }
     },
