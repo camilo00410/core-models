@@ -14,7 +14,7 @@ class DocumentType extends Model
         'abbreviation',
     ];
 
-     /**
+    /**
      * The attributes that should be hidden for serialization.
      *
      * @var array<int, string>

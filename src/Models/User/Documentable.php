@@ -16,7 +16,7 @@ class Documentable extends Model
         'documentable_type',
         'mime_type',
         'type',
-        'system'
+        'system',
     ];
 
     protected $hidden = [
@@ -26,6 +26,6 @@ class Documentable extends Model
 
     public function getUrlAttribute($value)
     {
-        return url('storage/' . ltrim($value, '/'));
+        return url('storage/'.ltrim($value, '/'));
     }
 }

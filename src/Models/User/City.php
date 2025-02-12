@@ -14,7 +14,7 @@ class City extends Model
     protected $fillable = [
         'department_id',
         'code',
-        'name'
+        'name',
     ];
 
     public function department()

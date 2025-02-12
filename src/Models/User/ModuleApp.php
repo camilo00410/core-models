@@ -14,6 +14,4 @@ class ModuleApp extends Model
         'identifier',
         'icon',
     ];
-
-
 }
