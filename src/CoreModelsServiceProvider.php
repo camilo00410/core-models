@@ -4,7 +4,6 @@ namespace VendorName\Skeleton;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
 
 class CoreModelsServiceProvider extends PackageServiceProvider
 {
