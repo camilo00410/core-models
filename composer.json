@@ -6,7 +6,7 @@
         "laravel",
         "models"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/camilo00410/core-models",
     "license": "MIT",
     "authors": [
         {
