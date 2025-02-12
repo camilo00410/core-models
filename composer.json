@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "fiduprevisora\\core-models\\SkeletonServiceProvider"
+                "fiduprevisora\\core-models\\CoreModelsServiceProvider"
             ],
             "aliases": {
                 "Skeleton": "fiduprevisora\\core-models\\Facades\\Skeleton"
